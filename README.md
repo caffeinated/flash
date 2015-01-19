@@ -1,6 +1,6 @@
 Caffeinated Flash Messages
 ==========================
-[![Author](http://img.shields.io/badge/author-Shea_Lewis-blue.svg?style=flat-square)](https://caffeinated.ninja)
+[![Laravel](https://img.shields.io/badge/Laravel-5.0-orange.svg?style=flat-square)](http://laravel.com)
 [![Source](http://img.shields.io/badge/source-caffeinated/flash-blue.svg?style=flat-square)](https://github.com/caffeinated/flash)
 [![Build Status](http://img.shields.io/travis/caffeinated/flash/master.svg?style=flat-square)](https://travis-ci.org/caffeinated/flash)
 [![Scrutinizer Code Quality](http://img.shields.io/scrutinizer/g/caffeinated/flash.svg?style=flat-square)](https://scrutinizer-ci.com/g/caffeinated/flash/?branch=master)
