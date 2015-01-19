@@ -22,4 +22,4 @@ Once this operation is complete, simply add both the service provider and facade
 'Flash' => 'Caffeinated\Flash\Facades\Flash'
 ```
 
-And that's it! With your coffee in reach, start flashing out messages!
+And that's it! With your coffee in reach, start flashing out messages! 
