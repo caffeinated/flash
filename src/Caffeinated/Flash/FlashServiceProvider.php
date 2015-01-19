@@ -20,6 +20,8 @@ class FlashServiceProvider extends ServiceProvider
 	public function register()
 	{
 		$this->registerServices();
+
+		$this->registerResources();
 	}
 
 	/**
@@ -47,5 +49,16 @@ class FlashServiceProvider extends ServiceProvider
 		$this->app->bindShared('flash', function() {
 			return $this->app->make('Caffeinated\Flash\FlashHandler');
 		});
+	}
+
+	/**
+	 * Register the package resources.
+	 *
+	 * @return void
+	 */
+	protected function registerResources()
+	{
+		// Add a view namespace
+		$this->app['view']->addNamespace('flash', __DIR__.'/../views');
 	}
 }
