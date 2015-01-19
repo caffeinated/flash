@@ -29,6 +29,36 @@ class FlashHandler
 	}
 
 	/**
+	 * Create a success flash message.
+	 *
+	 * @param string $message
+	 */
+	public function success($message)
+	{
+		$this->message($message, 'success');
+	}
+
+	/**
+	 * Create a warning flash message.
+	 *
+	 * @param string $message
+	 */
+	public function warning($message)
+	{
+		$this->message($message, 'warning');
+	}
+
+	/**
+	 * Create an error flash message.
+	 *
+	 * @param string $message
+	 */
+	public function error($message)
+	{
+		$this->message($message, 'danger');
+	}
+
+	/**
 	 * Create a flash message.
 	 *
 	 * @param string $message
