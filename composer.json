@@ -13,7 +13,7 @@
         "php": ">=5.4.0",
         "illuminate/support": ">=5.0.0"
     },
-    "require": {
+    "require-dev": {
         "mockery/mockery": "dev-master"
     },
     "autoload": {

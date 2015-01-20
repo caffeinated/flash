@@ -29,4 +29,41 @@ Once this operation is complete, simply add both the service provider and facade
 'Flash' => 'Caffeinated\Flash\Facades\Flash'
 ```
 
-And that's it! With your coffee in reach, start flashing out messages! 
+And that's it! With your coffee in reach, start flashing out messages!
+
+Usage
+-----
+Usage is simple. Before redirecting to another page, simply call on `Flash` to set your desired flash message. There are a number of methods to assign different levels of priority (info, success, warning, and error).
+
+#### Success
+
+```php
+Flash::success('This is a success message.');
+```
+
+#### Info
+
+```php
+Flash::info('This is an info message.');
+```
+
+#### Warning
+
+```php
+Flash::warning('This is a warning message.');
+```
+
+#### Error
+
+```php
+Flash::error('This is an error message.');
+```
+
+### Rendering
+To render your flash messages in your view, simply include the bundled view partial in your master layout:
+
+```php
+@include('flash::message')
+```
+
+Note that the bundled view partial is geared for Bootstrap out of the box.
