@@ -33,7 +33,7 @@ Once this operation is complete, simply add both the service provider and facade
 
 ##### Facade
 ```php
-'Module' => 'Caffeinated\Flash\Facades\Flash',
+'Flash' => 'Caffeinated\Flash\Facades\Flash',
 ```
 
 #### Laravel 5.1.x
@@ -44,7 +44,7 @@ Caffeinated\Flash\FlashServiceProvider::class,
 
 ##### Facade
 ```php
-'Module' => Caffeinated\Flash\Facades\Flash::class,
+'Flash' => Caffeinated\Flash\Facades\Flash::class,
 ```
 
 And that's it! With your coffee in reach, start flashing out messages!
