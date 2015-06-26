@@ -63,9 +63,8 @@ class FlashHandler
 	 *
 	 * @param string $message
 	 * @param string $level
-	 * @param string $title
 	 */
-	public function message($message, $level = 'info', $title = 'Notice')
+	public function message($message, $level = 'info')
 	{
 		$this->session->flash('caffeinated.flash.message', $message);
 		$this->session->flash('caffeinated.flash.level', $level);
