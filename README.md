@@ -9,24 +9,42 @@ Caffeinated Flash Messages
 
 Laravel 5 flash messages, originally developed after the Laracasts video tutorial on the same topic: [Flexible Flash Messages](https://laracasts.com/lessons/flexible-flash-messages).
 
-Installation
-------------
-Begin by installing the package through Composer. The best way to do this is through your terminal via Composer itself:
+Quick Installation
+------------------
+Begin by installing the package through Composer. Depending on what version of Laravel you are using (5.0 or 5.1), you'll want to pull in the `~1.0` or `~2.0` release, respectively:
 
+#### Laravel 5.0.x
 ```
-composer require caffeinated/flash
+composer require caffeinated/flash=~1.0
+```
+
+#### Laravel 5.1.x
+```
+composer require caffeinated/flash=~2.0
 ```
 
 Once this operation is complete, simply add both the service provider and facade classes to your project's `config/app.php` file:
 
-#### Service Provider
-```
-'Caffeinated\Flash\FlashServiceProvider'
+#### Laravel 5.0.x
+##### Service Provider
+```php
+'Caffeinated\Flash\FlashServiceProvider',
 ```
 
-#### Facade
+##### Facade
+```php
+'Module' => 'Caffeinated\Flash\Facades\Flash',
 ```
-'Flash' => 'Caffeinated\Flash\Facades\Flash'
+
+#### Laravel 5.1.x
+##### Service Provider
+```php
+Caffeinated\Flash\FlashServiceProvider::class,
+```
+
+##### Facade
+```php
+'Module' => Caffeinated\Flash\Facades\Flash::class,
 ```
 
 And that's it! With your coffee in reach, start flashing out messages!
