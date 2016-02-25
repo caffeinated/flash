@@ -38,7 +38,7 @@ class FlashServiceProvider extends ServiceProvider
 			'Caffeinated\Flash\LaravelSessionStore'
 		);
 
-		$this->app->bindShared('flash', function() {
+		$this->app->singleton('flash', function() {
 			return $this->app->make('Caffeinated\Flash\FlashHandler');
 		});
 	}
