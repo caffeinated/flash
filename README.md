@@ -1,7 +1,7 @@
 Caffeinated Flash Messages
 ==========================
-[![Laravel 5.0](https://img.shields.io/badge/Laravel-5.0-orange.svg?style=flat-square)](http://laravel.com)
 [![Laravel 5.1](https://img.shields.io/badge/Laravel-5.1-orange.svg?style=flat-square)](http://laravel.com)
+[![Laravel 5.2](https://img.shields.io/badge/Laravel-5.2-orange.svg?style=flat-square)](http://laravel.com)
 [![Source](http://img.shields.io/badge/source-caffeinated/flash-blue.svg?style=flat-square)](https://github.com/caffeinated/flash)
 [![Build Status](http://img.shields.io/travis/caffeinated/flash/master.svg?style=flat-square)](https://travis-ci.org/caffeinated/flash)
 [![Scrutinizer Code Quality](http://img.shields.io/scrutinizer/g/caffeinated/flash.svg?style=flat-square)](https://scrutinizer-ci.com/g/caffeinated/flash/?branch=master)
@@ -12,38 +12,20 @@ Laravel 5 flash messages, originally developed after the Laracasts video tutoria
 
 Quick Installation
 ------------------
-Begin by installing the package through Composer. Depending on what version of Laravel you are using (5.0 or 5.1), you'll want to pull in the `~1.0` or `~2.0` release, respectively:
+Begin by installing the package through Composer.
 
-#### Laravel 5.0.x
-```
-composer require caffeinated/flash=~1.0
-```
-
-#### Laravel 5.1.x
 ```
 composer require caffeinated/flash=~2.0
 ```
 
 Once this operation is complete, simply add both the service provider and facade classes to your project's `config/app.php` file:
 
-#### Laravel 5.0.x
-##### Service Provider
-```php
-'Caffeinated\Flash\FlashServiceProvider',
-```
-
-##### Facade
-```php
-'Flash' => 'Caffeinated\Flash\Facades\Flash',
-```
-
-#### Laravel 5.1.x
-##### Service Provider
+#### Service Provider
 ```php
 Caffeinated\Flash\FlashServiceProvider::class,
 ```
 
-##### Facade
+#### Facade
 ```php
 'Flash' => Caffeinated\Flash\Facades\Flash::class,
 ```
