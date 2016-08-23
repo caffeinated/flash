@@ -1,11 +1,7 @@
 Caffeinated Flash Messages
 ==========================
-[![Laravel 5.1](https://img.shields.io/badge/Laravel-5.1-orange.svg?style=flat-square)](http://laravel.com)
-[![Laravel 5.2](https://img.shields.io/badge/Laravel-5.2-orange.svg?style=flat-square)](http://laravel.com)
+[![Laravel 5.3](https://img.shields.io/badge/Laravel-5.3-orange.svg?style=flat-square)](http://laravel.com)
 [![Source](http://img.shields.io/badge/source-caffeinated/flash-blue.svg?style=flat-square)](https://github.com/caffeinated/flash)
-[![Build Status](http://img.shields.io/travis/caffeinated/flash/master.svg?style=flat-square)](https://travis-ci.org/caffeinated/flash)
-[![Scrutinizer Code Quality](http://img.shields.io/scrutinizer/g/caffeinated/flash.svg?style=flat-square)](https://scrutinizer-ci.com/g/caffeinated/flash/?branch=master)
-[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/caffeinated/flash.svg?style=flat-square)](https://scrutinizer-ci.com/g/caffeinated/flash/?branch=master)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 
 Laravel 5 flash messages, originally developed after the Laracasts video tutorial on the same topic: [Flexible Flash Messages](https://laracasts.com/lessons/flexible-flash-messages).
@@ -15,7 +11,7 @@ Quick Installation
 Begin by installing the package through Composer.
 
 ```
-composer require caffeinated/flash=~2.0
+composer require caffeinated/flash
 ```
 
 Once this operation is complete, simply add both the service provider and facade classes to your project's `config/app.php` file:
