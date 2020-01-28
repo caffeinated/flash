@@ -4,7 +4,7 @@ Caffeinated Flash Messages
 [![Source](http://img.shields.io/badge/source-caffeinated/flash-blue.svg?style=flat-square)](https://github.com/caffeinated/flash)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 
-Laravel 5 flash messages, originally developed after the Laracasts video tutorial on the same topic: [Flexible Flash Messages](https://laracasts.com/lessons/flexible-flash-messages).
+Laravel 5 flash messages, based off the Laracasts video tutorial on the same topic: [Flexible Flash Messages](https://laracasts.com/lessons/flexible-flash-messages). Originally developed for [FusionCMS](https://github.com/fusioncms/fusioncms), an open source content management system.
 
 Quick Installation
 ------------------
